@@ -31,3 +31,7 @@ replay_pid*
 .vs/
 /bin/Debug/net8.0
 /obj
+/src/obj
+/src/packages
+/src/ElevatorSimulation.Tests/obj
+/src/bin/Debug/net8.0
