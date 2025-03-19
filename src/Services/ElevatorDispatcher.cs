@@ -25,6 +25,7 @@ namespace ElevatorSimulation.Services
             }
 
             availableElevator.MoveToFloor(floor);
+            Console.WriteLine($"Elevator assigned from floor {availableElevator.CurrentFloor} to {floor}");
             availableElevator.LoadPassengers(passengers);
         }
 
